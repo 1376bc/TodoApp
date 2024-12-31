@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List 应用</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Todo List</h1>
+        <div class="settings">
+            <input type="file" id="bgInput" accept="image/*" style="display: none;">
+            <button id="settingsBtn"><i class="fas fa-image"></i></button>
+        </div>
+        <div class="todo-input">
+            <input type="text" id="taskInput" placeholder="请输入新的待办事项...">
+            <button id="addTask">添加</button>
+        </div>
+        <div class="todo-list">
+            <ul id="taskList"></ul>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html> 
